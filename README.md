@@ -25,7 +25,7 @@ LiaScript Workshop auf der [DELFI-Tagung 2023](https://delfi-tagung.de/delfi-202
 
 - __Online LiveEditor:__ https://liascript.github.io/LiveEditor/
 - __Exporter:__ https://www.npmjs.com/package/@liascript/exporter
-- __Development-Server:__
+- __Development-Server:__ https://www.npmjs.com/package/@liascript/devserver
 
 ### Beispiele
 
