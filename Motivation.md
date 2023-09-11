@@ -3,7 +3,7 @@ author:   Sebastian Zug, André Dietrich
 
 email:    Sebastian.Zug@informatik.tu-freiberg.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -14,13 +14,7 @@ mode:     Presentation
 comment:  Dieser Kurs für in das Projekt LiaScript ein und diskutiert die
           Vorteile im Kontext der OER Idee.
 
-link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
-
-script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
-
 logo:     ./images/logo.png
-
-import:   https://raw.githubusercontent.com/liaTemplates/processingjs/master/README.md
 
 translation: Deutsch  translations/German.md
 
@@ -30,7 +24,7 @@ translation: Deutsch  translations/German.md
 
 # Konzepte und Erfahrungen bei der Realisierung dezentraler, offener Lehrmaterialien mit LiaScript
 
-![OER logo](https://github.com/SebastianZug/WillkommenAufLiaScript/blob/master/images/Global_Open_Educational_Resources_Logo.png?raw=true "OER-Logo - Quelle: Jonathasmello - Eigenes Werk, CC BY 3.0, [https://commons.wikimedia.org/w/index.php?curid=18460156](https://commons.wikimedia.org/w/index.php?curid=18460156)")
+![OER logo](pic/LiaScript_Meets_OER.png "OER-Logo - Quelle: Jonathasmello - Eigenes Werk, CC BY 3.0, [https://commons.wikimedia.org/w/index.php?curid=18460156](https://commons.wikimedia.org/w/index.php?curid=18460156) erweitert um LiaScript Logo")
 
 ------------------------------------------------------
 
