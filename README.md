@@ -1,44 +1,25 @@
-# Delfi-Workshop-2023
+# LiaScript Workshop für Lehrerinnen und Lehrer
 
-LiaScript Workshop auf der [DELFI-Tagung 2023](https://delfi-tagung.de/delfi-2023/save-the-date) in Aachen
+## Struktur
 
+Der Workshop richtet sich an Lehrerinnen und Lehrer, die [LiaScript](https://LiaScript.github.io) kennenlernen möchten. Er bietet eine einführende Darstellung der Motivation der Beschreibungssprache und leitet anhand eines Beispiels die Grundlagen der LiaScript-Syntax her.
 
-- Kochbuch: https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/Delfi-Workshop-2023/main/Kochbuch.md
+Der erste Teil des Workshops erläutert die Kernkonzepte von LiaScript, wie 
+- die Serverlose Auslieferung von Inhalten,
+- die Verwendung von Markdown als Beschreibungssprache,
+- die Interaktivität von Inhalten und
+- die Transformation der Dokumente in verschiedene Umgebungen.
 
+Das Material dazu ist (natürlich) in LiaScript geschrieben und kann direkt im [interaktiven Modus](https://liascript.github.io/course/?https://raw.githubusercontent.com/SebastianZug/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Motivation.md#1) geöffnet werden.
 
-## Weitere Quellen
+Als Beispiel dient ein interaktives Kochbuch, das die Zubereitung einer Gemüsesuppe beschreibt. Dabei werden verschiedene LiaScript-Elemente wie Text, Bilder, Videos, Quizze und Programmcode verwendet. Zum öffnen der in diesem Repository enthalten Vorlage `Kochbuch.md` im [LiveEditor}(https://liascript.github.io/LiveEditor/) klicken Sie bitte auf den folgenden Link:
 
-- __Projekt-Webseite:__ https://LiaScript.github.io
-- __Code:__ https://github.com/liascript
-- __YouTube:__ https://www.youtube.com/channel/UCyiTe2GkW_u05HSdvUblGYg
-- __Blog:__ https://aizac.herokuapp.com/
+- __LiveEditor:__ https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/SebastianZug/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Kochbuch.md
 
-- __Dokumentation:__
-  
-  - GitHub: https://github.com/liaScript/docs
-  - LiaScript: https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md
+## Lizenz
+Das gesamte Material in diesem Repository ist unter der [CC BY 3.0](https://creativecommons.org/licenses/by/4.0/) lizenziert. Wir freuen uns über die Weiterverbreitung und Verwendung.
 
-- __Editor:__ https://code.visualstudio.com/Download
+## Kontakt via
 
-  - Liascript-Preview: https://marketplace.visualstudio.com/items?itemName=LiaScript.liascript-preview
-  - Liascript-Snippets: https://marketplace.visualstudio.com/items?itemName=LiaScript.liascript-snippets
-
-- __Online LiveEditor:__ https://liascript.github.io/LiveEditor/
-- __Exporter:__ https://www.npmjs.com/package/@liascript/exporter
-- __Development-Server:__ https://www.npmjs.com/package/@liascript/devserver
-
-### Beispiele
-
-- __Kurse:__ https://github.com/topics/liascript-course
-- __Templates:__ https://github.com/topics/liascript-template
-
-- __Tutorial:__ 
-
-  - GitHub: https://github.com/LiaBooks/LiaScript-Tutorial
-  - LiveEdit: https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaBooks/LiaScript-Tutorial/main/README.md
-
-### Kontakt via
-
-- eMail: LiaScript@web.de
-- Twitter: https://twitter.com/LiaScript
+- eMail: andre.dietrich@informatik.tu-freiberg.de & sebastian.zug@informatik.tu-freiberg.de
 - Chat: https://gitter.im/LiaScript/community
