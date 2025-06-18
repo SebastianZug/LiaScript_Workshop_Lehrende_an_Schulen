@@ -148,158 +148,49 @@ D. Fragen und Quizze
 
 E. Programmiertes Kochen
 
-var Gaeste = 4
-const Personen = 4
+gaeste = 4
+personen = 4
 
-var Zutat = {
-    Buchstabennudeln: 100, // Gramm
-    Gemuesebruehe: 2, // TL
-    Wasser: 1, // L
-    Zucchini: 1,
-    Paprika: 2,
-    Karrotten: 2,
-    Zwiebeln: 1,
-    Tomaten: 3,
-    Oel: 1 // EL
+zutat = {
+    "Buchstabennudeln": 100,  # Gramm
+    "Gemuesebruehe": 2,       # TL
+    "Wasser": 1,              # L
+    "Zucchini": 1,
+    "Paprika": 2,
+    "Karrotten": 2,
+    "Zwiebeln": 1,
+    "Tomaten": 3,
+    "Oel": 1                  # EL
 }
 
-for (const Name in Zutat) {
-    Zutat[Name] = (Zutat[Name] / Personen) * Gaeste
-}
+for name in zutat:
+    zutat[name] = (zutat[name] / personen) * gaeste
 
-JSON.stringify(Zutat, null, 2)
-
-
-
-
-F. Erweiterungen der Rezeptur
-
-
-
-
-F.1 Eigene
-
-
-
-
-F.2 Fremde
-
-
-
+for name, menge in zutat.items():
+    print(f"{name}: {menge}")
 
 X. Anhang
 
 
-
-X.1 KI - Künsteliche Intelligenz
-
-https://phind.com
+X.0 Zusätzliche Features im Editor
 
 
+X.1 KI - Künstliche Intelligenz
 
-X.1.1 Prompt
 
-``` markdown    - Quiz-Prompt
-Create quizzes using LiaScript syntax. There are four types of quizzes: Single-Choice, Multiple-Choice, Text-Quiz, and Gap-Text.
+X.2 Teilen von Kurse
 
-For Single-Choice Quiz:
+- data URL 
+- gist
+- dropbox
+- GitHub
 
-- Each quiz consists of a question and four answer options.
-- Only one answer option is correct.
-- Use square brackets with round brackets inside to mark the answer options.
-- Place an "X" inside the round brackets to indicate the correct answer option.
-- Separate each quiz with a blank line.
-- Separate the answer options from the questions by a blank line.
 
-For Multiple-Choice Quiz:
+X.3 Kl - Klassenräume
 
-- Each quiz consists of a question and multiple answer options.
-- One or more answer options can be correct.
-- Use double square brackets to mark the answer options.
-- Place an "X" inside the double square brackets to indicate the correct answer options.
-- Separate each quiz with a blank line.
-- Separate the answer options from the questions by a blank line.
-
-For Text-Quiz:
-
-- Each quiz consists of a question and the expected answer in double square brackets.
-- Only single-line text answers are supported (no newlines).
-- Separate each quiz with a blank line.
-- Separate the answer from the questions by a blank line.
-
-For Gap-Text Quiz:
-
-- Each quiz consists of a description or sentence with missing words.
-- Use double square brackets to mark the missing words or gaps.
-- Learners need to fill in the correct words for each gap.
-- Separate each quiz with a blank line.
-
-**Single-Choice Quiz Example:**
 Question: What is the capital of France?
 
 - [( )] London
 - [( )] Berlin
 - [(X)] Paris
 - [( )] Rome
-
-Question: Which color is associated with stop signs?
-
-- [( )] Blue
-- [(X)] Red
-- [( )] Yellow
-- [( )] Green
-
-**Multiple-Choice Quiz Example:**
-Question: Which of the following are primary colors?
-
-- [[X]] Red
-- [[X]] Blue
-- [[ ]] Green
-- [[X]] Yellow
-
-Question: Which of the following programming languages are object-oriented?
-
-- [[X]] Java
-- [[ ]] HTML
-- [[X]] Python
-- [[ ]] CSS
-
-**Text-Quiz Example:**
-Question: What is the chemical symbol for water?
-
-[[H2O]]
-
-Question: Name a famous scientist.
-
-[[Albert Einstein]]
-
-**Gap-Text Quiz Example:**
-
-> Fill in the missing words in the following sentence:
-
-The cat sat on the [[mat]].
-
-> Complete the sentence by filling in the gaps:
-
-Roses are [[red]], violets are [[blue]], sugar is [[sweet]], and so are [[you]].
-
-> Fill in the blanks to complete the famous quote:
-
-"Life is like a [[box]] of [[chocolates]]. You never know what you're gonna [[get]]."
-
-> Add the missing words to complete the phrase:
-
-Actions speak louder than [[words]].
-```
-
-X.1.2 ASCII-Art
-
-
-
-X.2 Teilen von Kurse
-
-
-
-X.3 Kl - Klassenräume
-
-

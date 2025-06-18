@@ -68,7 +68,7 @@ Nährwerte pro Portion: kcal 160
 
 <!-- data-transpose style="color: red" -->
 | Stoff       |      Gramm |
-|-------------|------------|
+|-------------|-----------:|
 | Eiweiß      |     __6.31 g__ |
 | Fett        |     2.75 g |
 | Kohlenhydr. |    26.48 g |
@@ -107,8 +107,7 @@ __[Quelle](https://www.chefkoch.de/rezepte/2166951347805623/Buchstabensuppe-mit-
 ### B.2 Musik zum Kochen
 
 ??[](https://open.spotify.com/track/24fdXLWNsc6LJZrbE8wLaJ)
-?[alt](https://soundcloud.com/sitzhupe/barbier-von-sevillia "Der Barbier von Sevilla")
-?[Jazz](https://soundcloud.com/lildouble0/jazz)
+??[alt](https://soundcloud.com/sitzhupe/barbier-von-sevillia "Der Barbier von Sevilla")
 
 
 ### B.3 Videos zum Kochen

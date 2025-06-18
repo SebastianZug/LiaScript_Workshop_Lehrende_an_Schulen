@@ -3,7 +3,7 @@ author:   Sebastian Zug, André Dietrich
 
 email:    Sebastian.Zug@informatik.tu-freiberg.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: de
 
@@ -264,7 +264,7 @@ Kurs.txt         Version 1.0          Kurs.txt          Version 1.1
 > _2. Die Verwaltung und Auffindbarkeit von OER Inhalten ist dadurch nicht erfasst._
 
 
-Erweiterte V-Anforderungen an OER Inhalte:
+Erweiterte 7V Definition an OER Inhalte:
 
 | Anforderung                                            | txt                           | Begründung                                               |
 | ------------------------------------------------------ | ----------------------------- | -------------------------------------------------------- |
